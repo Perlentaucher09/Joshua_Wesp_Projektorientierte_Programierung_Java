@@ -1,5 +1,4 @@
-package GUI;
-
+package Parkhaus;
 import java.util.Arrays;
 
 public class Parkhaus {
@@ -26,7 +25,7 @@ public class Parkhaus {
             if (parkhaus[i] != null &&
                 parkhaus[i].getKennzeichen().equals(kennzeichen)) {
 
-                System.out.println("Auto " + parkhaus[i] + " verlässt Platz " + i);
+                System.out.println("Auto " + parkhaus[i] + " verlï¿½sst Platz " + i);
                 parkhaus[i] = null;
                 return;
             }

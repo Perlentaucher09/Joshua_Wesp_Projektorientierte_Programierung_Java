@@ -1,14 +1,15 @@
-package GUI;
-import javax.swing.JFrame;
-public class Main extends JFrame{
-	public Main() {
-		super ("Fenster_01");
-		this.setSize(100,100);
-		this.setVisible(true);
-	}
+package Parkhaus;
+//import javax.swing.JFrame;
+//extends JFrame
+public class Main {
+	//public Main() {
+	//	super ("Fenster_01");
+	//	this.setSize(100,100);
+	//	this.setVisible(true);
+	//}
 
     public static void main(String[] args) {
-    	Main g = new Main();
+    	//Main g = new Main();
     	//g.setBackground();
 
         Parkhaus p = new Parkhaus(5);

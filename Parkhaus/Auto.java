@@ -1,5 +1,4 @@
-package GUI;
-
+package Parkhaus;
 public class Auto {
 
     private String kennzeichen;
