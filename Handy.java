@@ -1,9 +1,9 @@
 class Handy_data {
     
     private java.lang.String marke;
-    private java.lang.String speicher;
+    private int speicher;//gb
 
-    public Handy_data(java.lang.String marke, java.lang.String speicher) {
+    public Handy_data(java.lang.String marke, int speicher) {
         this.marke = marke;
         this.speicher = speicher;
     }
@@ -14,7 +14,7 @@ class Handy_data {
 
 public class Handy {
     public static void main(java.lang.String[] args) {
-        Handy_data h = new Handy_data("iPhone", "128gb");
+        Handy_data h = new Handy_data("iPhone", 128);
         System.out.println(h);
         System.out.println("Handy: " + h);
     }
