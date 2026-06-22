@@ -14,8 +14,13 @@ class Handy_data {
 
 public class Handy {
     public static void main(java.lang.String[] args) {
+        trennung();
         Handy_data h = new Handy_data("iPhone", 128);
         System.out.println(h);
         System.out.println("Handy: " + h);
+        trennung();
+    }
+    public static void trennung() {
+        System.out.println("==========================================");
     }
 }
